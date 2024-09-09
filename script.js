@@ -41,7 +41,7 @@ numbers.splice(numbers.length/2,2)
 console.log(numbers)
 
 
-numbers =[1,2,32,4,55,16,7,8,9,10]
+numbers = [1,2,32,4,55,16,7,8,9,10]
 console.log("result of multiplying all numbers")
 console.log(numbers.reduce((prev_num , num)=>prev_num*num ))
 
@@ -99,3 +99,33 @@ console.log(lengths);
 let element = "javascript"
 
 words.includes (element)? console.log(element): console.log(element+" doesn't exist")
+
+
+// Javasacript lab
+
+function add(num_1, num_2){
+    return num_1 + num_2
+}
+function subtract(num_1, num_2){
+    return num_1 - num_2
+}
+
+function multiply( num_1, num_2){
+    return num_1 * num_2
+
+}
+
+function divide(num_1, num_2){
+    return num_1 / num_2
+}
+
+
+function remainder(num_1, num_2){
+    return num_1 % num_2
+}
+
+function square(num_1){
+    return num_1*num_1
+}
+
+
